@@ -10,30 +10,31 @@
 </head>
 
 <body>
-    <!-- <template id="login"> -->
-
+    <div id="login">
         <form class="style-form">
-        <div class="pad">
-            <label class="lable-style-login">Email:</label>
-            <input type='email' autocomplete='username' id='email'/>
-        </div>
-        <div class="pad">
-            <label class="lable-style-login">Password:</label>
-            <input type='password' autocomplete='new-password' />
-        </div>
-        <div class="pad">
-            <input class="sub1" type="submit" value="Login">
-        </div>
+            <div class="pad">
+                <label class="lable-style-login">Email:</label>
+                <input  type='email' autocomplete='username' id='email' required/>
+            </div>
+            <div class="pad">
+                <label class="lable-style-login">Password:</label>
+                <input type='password' autocomplete='new-password' id="pwrd" required/>
+            </div>
+            <div class="pad">
+                <input class="sub1" id="submitbtn" type="submit" value="Login">
+            </div>
+            <p id="validateLogin"></p>
         </form>
-        <!-- partial -->
-    <!-- </template> -->
-    <!-- <template id="game"> -->
-    <h1>Pop Cat</h1>
-    <img id="cat-img" src="./media/pop-closed.jpeg" alt="closed mouth pop cat">
-    <h2>pop counter:</h2>
-    <p id="counter">0</p>
-    <button id="counter-btn">pop</button>
-    <!-- </template> -->
+    </div>
+
+    <template id="game">
+        <h1>Pop Cat</h1>
+        <img id="cat-img" src="./media/pop-closed.jpeg" alt="closed mouth pop cat">
+        <h2>pop counter:</h2>
+        <p id="counter">0</p>
+        <button id="counter-btn">pop</button>
+        <button id="log-out">log out</button>
+    </template>
     <script src="./main.js"></script>
 </body>
 
