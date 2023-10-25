@@ -1,7 +1,28 @@
 
-#cat-img {
+.style-form{
+    margin-top: 10%;
+    align-items: center;
+    width: min-content;
+    margin: 10% auto 0 auto;
+    padding: 20px;
+    border: 1px solid firebrick;
+    border-radius: 20px 0 20px;
+
+
+}
+.pad{
+    padding: 3.5%;
+    margin: 10px;
+}
+.lable-style-login   {
+    display: inline-block;;
+    width: 100px;
+}
+.sub1{
     margin: auto;
-    height: 60vh;
-    width: 60vh;
-    object-fit: cover;
+    padding: 10px;
+    width: 101%;
+    
+    
+    
 }
