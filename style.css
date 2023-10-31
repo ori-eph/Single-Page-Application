@@ -1,11 +1,11 @@
 #cat-img {
     margin: auto;
-    height: 60vh;
-    width: 60vh;
+    height: 55vh;
+    width: 55vh;
     object-fit: cover;
 }
 
-.style-form{
+.style-form {
     margin-top: 10%;
     align-items: center;
     width: min-content;
@@ -16,19 +16,57 @@
 
 
 }
-.pad{
+
+.pad {
     padding: 3.5%;
     margin: 10px;
 }
-.lable-style-login   {
-    display: inline-block;;
+
+.lable-style-login {
+    display: inline-block;
+    ;
     width: 100px;
 }
-.sub1{
+
+.sub1 {
     margin: auto;
     padding: 10px;
     width: 101%;
-    
-    
-    
+
+
+
+}
+
+.style-form {
+    background-color: rgba(255, 255, 255, 0.682);
+    border-width: 2px;
+}
+
+#game {
+    font-family: "Playpen Sans";
+    text-align: center;
+}
+
+#game>h1 {
+    font-size: 3em;
+    margin: 0 0 1% 0;
+}
+
+#game>p, #game> h2{
+    margin: 1%;
+}
+
+body {
+    background-color: rgb(204, 203, 203);
+}
+
+#log-out {
+    position: fixed;
+    right: 10vh;
+    top: 10vh;
+}
+
+#game > button {
+    padding: 1%;
+    font-weight: bolder;
 }
